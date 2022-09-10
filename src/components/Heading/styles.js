@@ -2,23 +2,23 @@ import styled, { css } from 'styled-components';
 
 const titleSize = {
   small: (theme) => css`
-    font-size: ${theme.font.sizes.medium};
+    font-size: ${theme.fonts.sizes.medium};
   `,
   medium: (theme) => css`
-    font-size: ${theme.font.sizes.large};
+    font-size: ${theme.fonts.sizes.large};
   `,
   big: (theme) => css`
-    font-size: ${theme.font.sizes.xlarge};
+    font-size: ${theme.fonts.sizes.xlarge};
   `,
   huge: (theme) => css`
-    font-size: ${theme.font.sizes.xhuge};
+    font-size: ${theme.fonts.sizes.xhuge};
     ${mediaFont(theme)};
   `,
 };
 
 const mediaFont = (theme) => css`
   @media ${theme.media.lteMedium} {
-    font-size: ${theme.font.sizes.xlarge};
+    font-size: ${theme.fonts.sizes.xlarge};
   }
 `;
 
@@ -28,7 +28,9 @@ const titleCase = (uppercase) => css`
 
 export const Title = styled.h1`
   ${({ theme, colorDark, size, uppercase }) => css`
-    color: ${colorDark ? theme.colors.primaryColor : theme.colors.white};
+    color: ${
+      colorDark ? theme.colors.secondaryColor : theme.colors.terciaryColor
+    };
     ${titleSize[size](theme)};
     ${titleCase(uppercase)};
   `}
