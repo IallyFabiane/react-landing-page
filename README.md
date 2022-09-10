@@ -8,7 +8,7 @@
   <img align="center" alt="Editorconfig" height="30" width="40" src="https://seeklogo.com/images/E/editorconfig-logo-1C2E30CF25-seeklogo.com.png" />
   <img align="center" alt="Netlify" height="100" width="100" src="https://download.logo.wine/logo/Netlify/Netlify-Logo.wine.png" />
   <img align="center" alt="Storybook" height="100" width="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original-wordmark.svg" />
-  <img align="center" alt="Vitest" height="40" width="40" src="https://vitest.dev/logo-shadow.svg" />
+  <img align="center" alt="Vitest" height="35" width="40" src="https://vitest.dev/logo-shadow.svg" />
 </div>
 
 
