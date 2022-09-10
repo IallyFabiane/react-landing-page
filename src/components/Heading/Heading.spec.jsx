@@ -11,7 +11,7 @@ describe('<Heading />', () => {
     const heading = screen.getByRole('heading', { name: 'texto' });
 
     expect(heading).toHaveStyle({
-      color: theme.colors.primaryColor,
+      color: theme.colors.secondaryColor,
       'font-size': theme.font.sizes.xhuge,
       'text-transform': 'none',
     });

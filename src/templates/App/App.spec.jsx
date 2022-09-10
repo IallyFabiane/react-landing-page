@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/jsx-no-undef */
 import Home from '.';
 import { renderTheme } from '../../styles/render-theme';
 

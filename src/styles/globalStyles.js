@@ -9,6 +9,8 @@ export const GlobalStyles = createGlobalStyle`
 
  body {
     ${({ theme }) => css`
+      font-size: 1.6rem;
+      font-family: ${({ theme }) => theme.font.family.Primary};
       background: ${theme.colors.mainBg};;
       margin: ${theme.spacings.margin};
     `}
