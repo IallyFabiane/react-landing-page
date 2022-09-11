@@ -22,7 +22,7 @@ describe('<Heading />', () => {
     const heading = screen.getByRole('heading', { name: 'texto' });
 
     expect(heading).toHaveStyle({
-      color: theme.colors.secondaryColor,
+      color: theme.colors.terciaryColor,
     });
   });
 
