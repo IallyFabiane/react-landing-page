@@ -5,12 +5,12 @@ export default {
   component: LogoLink,
   args: {
     text: 'LogoLink',
-    srcImg: 'assets/images/logo.png',
+    srcImg: 'assets/images/logo.svg',
     link: 'http://localhost',
   },
 };
 
-export const Template = (args) => {
+export const ImageOnly = (args) => {
   return (
     <div>
       <LogoLink {...args} />
@@ -18,3 +18,14 @@ export const Template = (args) => {
   );
 };
 
+export const TextOnly = (args) => {
+  return (
+    <div>
+      <LogoLink {...args} />
+    </div>
+  );
+};
+
+TextOnly.args = {
+  srcImg: '',
+};
