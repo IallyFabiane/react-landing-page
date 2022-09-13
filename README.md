@@ -9,6 +9,7 @@
   <img align="center" alt="Netlify" height="100" width="100" src="https://download.logo.wine/logo/Netlify/Netlify-Logo.wine.png" />
   <img align="center" alt="Storybook" height="100" width="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original-wordmark.svg" />
   <img align="center" alt="Vitest" height="35" width="40" src="https://vitest.dev/logo-shadow.svg" />
+  <img align="center" alt="Styled Components" height="35" width="40" src="https://miro.medium.com/max/318/1*7jRD5QhgARucFKvRHFxpOg.png" />
 </div>
 
 
