@@ -1,0 +1,75 @@
+// Vitest Snapshot v1
+
+exports[`< /> > should render with background dark 1`] = `
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background: #F2DFDF;
+  color: #0D0D0D;
+  background: #F2CED8;
+  color: #ABBFAA;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <h1>
+        children
+      </h1>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`< /> > should render with background light 1`] = `
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background: #F2DFDF;
+  color: #0D0D0D;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <h1>
+        children
+      </h1>
+    </div>
+  </div>
+</div>
+`;
