@@ -1,20 +1,40 @@
 /* eslint-disable no-unused-vars */
+import { useState } from 'react';
 import P from 'prop-types';
 import { SectionContainer } from '../SectionContainer';
 import { LogoLink } from '../LogoLink';
 import { NavLinks } from '../NavLinks';
 import * as Styled from './styles';
-
+import { Menu as MenuIcon } from '@styled-icons/material-outlined/Menu';
+import {
+  Close,
+  Close as CloseIcon,
+} from '@styled-icons/material-outlined/Close';
 export const Menu = ({ links = [], logoData }) => {
+  const [visible, setVisible] = useState(false); //estado que controla a visibilidade do botão de menu apenas para mobile
+
   return (
-    <Styled.Container>
-      <SectionContainer>
-        <Styled.MenuContainer>
-          <LogoLink {...logoData} />
-          <NavLinks links={links} />
-        </Styled.MenuContainer>
-      </SectionContainer>
-    </Styled.Container>
+    <>
+      <Styled.Button
+        visible={visible}
+        onClick={() => setVisible(true)}
+        aria-label="Open/Close Menu"
+      >
+        {visible ? (
+          <CloseIcon aria-label="Close Menu" />
+        ) : (
+          <MenuIcon aria-label="Open Menu" />
+        )}
+      </Styled.Button>
+      <Styled.Container onClick={() => setVisible(false)}>
+        <SectionContainer visible={visible}>
+          <Styled.MenuContainer>
+            <LogoLink {...logoData} />
+            <NavLinks links={links} />
+          </Styled.MenuContainer>
+        </SectionContainer>
+      </Styled.Container>
+    </>
   );
 };
 
