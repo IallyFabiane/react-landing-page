@@ -19,9 +19,8 @@ export default {
 
 export const Template = (args) => {
   return (
-    <div>
+    <div style={{ height: '300vh', background: 'gray' }}>
       <Menu {...args} />
     </div>
   );
 };
-
