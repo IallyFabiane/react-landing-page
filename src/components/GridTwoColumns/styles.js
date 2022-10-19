@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 import styled, { css } from 'styled-components';
-import { Heading } from '../Heading/style';
+import { Heading as Title } from '../Heading/styles';
 
 export const Container = styled.div`
   ${({ theme, background }) => css`
