@@ -57,29 +57,30 @@ exports[`<GridContent /> > should render grid content 1`] = `
       <div
         class="c2"
       >
-        <h1
+        <h2
           class="c3"
         >
           O título
-        </h1>
+        </h2>
         <div
           class="c4"
-        />
-        <p
-          class="c5"
         >
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tu quidem reddes; Quod equidem non reprehendo; Audeo dicere, inquit. Duo Reges: constructio interrete. 
-          </p>
-          
+          <p
+            class="c5"
+          >
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tu quidem reddes; Quod equidem non reprehendo; Audeo dicere, inquit. Duo Reges: constructio interrete. 
+            </p>
+            
 
   
-          <p>
-            Ita graviter et severe voluptatem secrevit a bono. Ratio quidem vestra sic cogit. Cur haec eadem Democritus? Minime vero, inquit ille, consentit. At hoc in eo M. Habent enim et bene longam et satis litigiosam disputationem. 
-          </p>
-          
+            <p>
+              Ita graviter et severe voluptatem secrevit a bono. Ratio quidem vestra sic cogit. Cur haec eadem Democritus? Minime vero, inquit ille, consentit. At hoc in eo M. Habent enim et bene longam et satis litigiosam disputationem. 
+            </p>
+            
   
-        </p>
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -143,29 +144,30 @@ exports[`<GridContent /> > should render grid content 2`] = `
       <div
         class="c2"
       >
-        <h1
+        <h2
           class="c3"
         >
           O título
-        </h1>
+        </h2>
         <div
           class="c4"
-        />
-        <p
-          class="c5"
         >
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tu quidem reddes; Quod equidem non reprehendo; Audeo dicere, inquit. Duo Reges: constructio interrete. 
-          </p>
-          
+          <p
+            class="c5"
+          >
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tu quidem reddes; Quod equidem non reprehendo; Audeo dicere, inquit. Duo Reges: constructio interrete. 
+            </p>
+            
 
   
-          <p>
-            Ita graviter et severe voluptatem secrevit a bono. Ratio quidem vestra sic cogit. Cur haec eadem Democritus? Minime vero, inquit ille, consentit. At hoc in eo M. Habent enim et bene longam et satis litigiosam disputationem. 
-          </p>
-          
+            <p>
+              Ita graviter et severe voluptatem secrevit a bono. Ratio quidem vestra sic cogit. Cur haec eadem Democritus? Minime vero, inquit ille, consentit. At hoc in eo M. Habent enim et bene longam et satis litigiosam disputationem. 
+            </p>
+            
   
-        </p>
+          </p>
+        </div>
       </div>
     </div>
   </div>
