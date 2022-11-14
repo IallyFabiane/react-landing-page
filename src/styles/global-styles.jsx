@@ -7,6 +7,11 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
  }
 
+ html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+ }
+
  body {
     ${({ theme }) => css`
       font-size: 1.6rem;
