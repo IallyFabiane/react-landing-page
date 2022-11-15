@@ -18,7 +18,7 @@ export const Base = ({ links = [], logoData, footerHtml, children }) => {
 };
 
 Base.propTypes = {
-  children: P.node.isRequired,
+  children: P.node,
   ...Menu.propTypes,
-  footerHtml: P.string.isRequired,
+  footerHtml: P.string,
 };
