@@ -4,7 +4,7 @@ import { Footer } from '../../components/Footer';
 import { GoTop } from '../../components/GoTop';
 import * as Styled from './styles';
 
-export const Base = ({ links = [], logoData, footerHtml, children }) => {
+export const Base = ({ links, logoData, footerHtml, children }) => {
   return (
     <>
       <Menu links={links} logoData={logoData} />
