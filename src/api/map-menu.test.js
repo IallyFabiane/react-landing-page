@@ -1,4 +1,4 @@
-import { mapMenu, mapMenuLinks } from './map.menu';
+import { mapMenu, mapMenuLinks } from './map-menu';
 
 describe('map-menu', () => {
   it('should return a predefined object if no data', () => {
@@ -27,7 +27,11 @@ describe('map-menu', () => {
         },
       ],
       logo: {
-        url: 'a.svg',
+        data: {
+          attributes: {
+            url: 'a.svg',
+          },
+        },
       },
     });
     expect(menu.newTab).toBe(false);
