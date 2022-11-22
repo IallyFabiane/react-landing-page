@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { mapData } from '../../api/map-data';
 import { mockBase } from '../Base/mock';
 import { Base } from '../Base';
+import { PageNotFound } from '../PageNotFound';
 
 function Home() {
   const [data, setData] = useState([]);
@@ -29,7 +30,7 @@ function Home() {
   }, []);
 
   if (data === undefined) {
-    return <h1>Página não encontrada</h1>;
+    return <PageNotFound />;
   }
 
   if (data && !data.slug) {
