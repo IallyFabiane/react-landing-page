@@ -1,7 +1,7 @@
 // Vitest Snapshot v1
 
 exports[`<GridTwoColumns /> > should render grid with two columns 1`] = `
-.c4 {
+.c5 {
   color: #0D0D0D;
   font-size: 6.4rem;
   text-transform: uppercase;
@@ -17,9 +17,12 @@ exports[`<GridTwoColumns /> > should render grid with two columns 1`] = `
   gap: 3.2rem;
 }
 
-.c2 {
+.c2 .c4 {
   margin-bottom: 4.0rem;
-  color: #0D0D0D;
+}
+
+.c7 {
+  width: 100%;
 }
 
 .c1 {
@@ -42,12 +45,12 @@ exports[`<GridTwoColumns /> > should render grid with two columns 1`] = `
   align-items: center;
 }
 
-.c5 {
+.c6 {
   font-size: 2.4rem;
 }
 
 @media (max-width:768px) {
-  .c4 {
+  .c5 {
     font-size: 4.0rem;
   }
 }
@@ -79,13 +82,12 @@ exports[`<GridTwoColumns /> > should render grid with two columns 1`] = `
           class="c3"
         >
           <h2
-            class="c4"
+            class="c4 c5"
           >
             Grid two columns
-             
           </h2>
           <p
-            class="c5"
+            class="c6"
           >
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae sit ullam aliquam maiores dicta ipsa, earum id, alias quae cupiditate, voluptatum minus eveniet rerum officia accusantium. Vel nemo possimus reprehenderit.
           </p>
@@ -95,7 +97,7 @@ exports[`<GridTwoColumns /> > should render grid with two columns 1`] = `
         >
           <img
             alt="Grid two columns"
-            class=""
+            class="c7"
             src="assets/images/logo.svg"
           />
         </div>
