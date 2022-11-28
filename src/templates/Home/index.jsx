@@ -22,11 +22,11 @@ function Home() {
   useEffect(() => {
     const load = async () => {
       const pathName = location.pathname.replace(/[^a-z0-9-_]/gi, '');
-      const slug = pathName ? pathName : 'real-beauty';
+      const slug = pathName ? pathName : 'landing_page';
 
       try {
         const data = await fetch(
-          `https://strapi-v4-test.herokuapp.com/api/pages/?filters[slug]=${slug}&populate=deep`,
+          `https://real-beauty.herokuapp.com/api/pages/?filters[slug]=${slug}&populate=deep`,
         );
         const json = await data.json();
         const { attributes } = json.data[0];
